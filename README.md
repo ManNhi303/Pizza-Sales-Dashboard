@@ -1,40 +1,51 @@
-🍕 Pizza Sales Performance Analysis (Power BI & SQL)
-![alt text](https://img.shields.io/badge/Project-Data_Analysis-blue?style=for-the-badge)
+# 🍕 Pizza Sales Analysis Dashboard (Power BI & SQL)
 
-![alt text](https://img.shields.io/badge/Tools-SQL_|_Power_BI_|_Excel-orange?style=for-the-badge)
-📌 Project Background
-This project aims to analyze a year's worth of pizza sales data to identify trends, popular products, and revenue drivers. To ensure 100% data accuracy, I integrated SQL Server to validate all KPIs and metrics before visualizing them in Power BI.
-Dataset Source: Pizza Sales Dataset (Kaggle)
-Data Scale: ~48,000+ transaction records.
-⚙️ Technical Workflow
-Data Extraction & Cleaning: Used SQL and Power Query to handle missing values and format data types.
-Data Validation (SQL): Developed a comprehensive set of SQL queries to calculate Total Revenue, Average Order Value, and Top Sellers. These results were used as a "source of truth" to verify Power BI measures.
-Data Modeling: Created relationships and calculated DAX measures (Total Sales, Order Frequency, etc.).
-Dashboard Design: Built an interactive 2-page report focusing on Sales Overview and Product Performance.
-📊 Dashboard Key Features
-Overview Page: Real-time tracking of 5 core KPIs (Revenue, Total Orders, Units Sold, AOV, and Pizzas per Order).
-Trend Analysis: Visualizing sales velocity by day of the week and month.
-Best/Worst Sellers: A dedicated breakdown of the Top 5 and Bottom 5 pizza performers across three different metrics (Revenue, Quantity, and Orders).
-💡 Key Business Insights
-1. Sales Trends & Peak Periods
-Busiest Days: Orders peak significantly on Fridays and Saturdays. These days see a high volume of transactions, suggesting that pizza is a primary "weekend treat" for customers.
-Peak Hours: Order volume surges during Lunch (12 PM - 1 PM) and Dinner (6 PM - 8 PM).
-Seasonal Peaks: The months of January and July recorded the highest sales. This could be attributed to New Year celebrations and summer holiday promotions.
-2. Product Performance
-The "Star" Product: The Thai Chicken Pizza contributes the Maximum Revenue, indicating it is a high-value item that drives the bottom line.
-The "Crowd Favorite": The Classic Deluxe Pizza is both the Most Ordered and has the highest unit sales, proving it is a staple product with high customer loyalty.
-The "Underperformer": The Brie Carre Pizza consistently ranks as the Worst Seller in terms of revenue, quantity, and order frequency.
-3. Category & Size Preferences
-Top Category: The Classic Category is the most popular, contributing over 27% of total sales volume.
-Size Distribution: Customers have a strong preference for Large (46%) and Medium (30%) sizes. Smaller sizes and X-Large sizes show much lower demand.
-🚀 Strategic Recommendations
-Staffing: Optimize kitchen and delivery shifts to be at full capacity during the Friday/Saturday "Prime Time" (6 PM - 8 PM).
-Menu Optimization: Since Brie Carre has the lowest performance, the business should consider a recipe rework, a limited-time discount to clear inventory, or replacing it with a more trendy flavor.
-Promotional Strategy: Bundle the "Classic Deluxe" (Popularity leader) with high-margin sides to increase the Average Order Value (AOV).
-Inventory Management: Focus stock levels on Large and Medium crusts to prevent stockouts of the most popular sizes.
-📂 Repository Contents
-Pizza_Sales_Report.pbix - The final interactive Power BI dashboard.
-SQL_Queries.docx - The full collection of SQL scripts used for data verification and KPI extraction.
-Dataset/ - Raw data files from Kaggle.
-Developed by: [Your Name]
-Contact: [Your Email / LinkedIn Profile Link]
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
+![Data Analysis](https://img.shields.io/badge/Analysis-Insights-blue?style=for-the-badge)
+
+## 📌 Project Overview
+This project is a comprehensive sales analysis for a pizza store. It combines **SQL** for robust data validation and **Power BI** for interactive visualization. The goal is to track key performance indicators (KPIs), understand customer behavior, and optimize menu offerings based on sales performance.
+
+*   **Dataset:** [Pizza Sales Dataset (Kaggle)](https://www.kaggle.com/datasets/nextstep01/pizza-sales-dataset)
+*   **Total Records:** Over 48,000 transaction rows.
+
+## 🛠️ Key Workflow
+1.  **SQL Integration:** Developed multiple complex SQL queries to extract KPIs and verify data accuracy. These results were cross-checked with Power BI measures to ensure 100% data integrity.
+2.  **Data Modeling:** Processed raw data using Power Query and established relationships within Power BI.
+3.  **Visualization:** Designed a 2-page interactive dashboard focusing on **Sales Trends** and **Product Performance (Best/Worst Sellers)**.
+
+---
+
+## 📊 Business Insights (Analysis)
+Through this data analysis, several critical business insights were uncovered:
+
+### 1. Temporal Sales Trends
+*   **Peak Days:** Orders spike significantly on **Fridays and Saturdays**. This indicates a high weekend demand where pizza is a preferred social/family meal.
+*   **Peak Hours:** The busiest hours for pizza orders occur during **Lunch (12 PM - 1 PM)** and **Dinner (6 PM - 8 PM)**. Staffing should be optimized for these time slots.
+*   **Seasonal Effects:** Monthly trends show sales peaks in **January and July**, likely influenced by holidays or summer promotions.
+
+### 2. Product Performance (Best/Worst Sellers)
+*   **Revenue Leader:** **The Thai Chicken Pizza** generates the **Maximum Revenue**, suggesting it is the most valuable item for profitability.
+*   **Popular Choice:** **The Classic Deluxe Pizza** is the **Most Ordered** and **Most Liked** pizza by volume, indicating high customer loyalty and mass appeal.
+*   **Least Popular:** **The Brie Carre Pizza** contributes the **Minimum Revenue** and is the **Least Ordered** item. This suggests the flavor profile may not resonate with the current customer base.
+
+### 3. Category & Size Analysis
+*   **Top Category:** The **Classic** category outperforms all others in terms of total units sold (~27%).
+*   **Size Preference:** Customers overwhelmingly prefer **Large (46%)** and **Medium (30%)** pizzas. Small and X-Large sizes represent a much smaller market share.
+
+## 🚀 Recommendations
+1.  **Staffing:** Increase kitchen and delivery capacity during Friday/Saturday dinner hours to maintain service speed.
+2.  **Menu Engineering:** Consider replacing the **Brie Carre** with a new seasonal flavor or running a targeted promotion to clear inventory.
+3.  **Upselling:** Since Large pizzas are the most popular, create "Family Meal Deals" centered around Large sizes to increase the Average Order Value (AOV).
+
+---
+
+## 📂 Repository Contents
+- `Pizza_Sales_Report.pbix`: Interactive Power BI dashboard.
+- `Pizza_Sales_SQL_Queries.docx`: Full set of SQL queries used for data validation and KPI calculation.
+- `Dataset/`: Folder containing the raw sales data.
+
+---
+**Developed by:** [Your Name]  
+**Connect with me:** [Your LinkedIn/Email Link]
