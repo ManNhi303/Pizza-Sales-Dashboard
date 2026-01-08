@@ -2,16 +2,15 @@
 
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
-![Data Analysis](https://img.shields.io/badge/Analysis-Insights-blue?style=for-the-badge)
 
 ## 📌 Project Overview
-This project is a comprehensive sales analysis for a pizza store. It combines **SQL** for robust data validation and **Power BI** for interactive visualization. The goal is to track key performance indicators (KPIs), understand customer behavior, and optimize menu offerings based on sales performance.
+This project is a comprehensive sales analysis for a pizza store. It combines **SQL** to cross-verify Power BI chart results against raw data metrics, ensuring all visualizations are accurate and **Power BI** for interactive visualization. The goal is to track key performance indicators (KPIs), understand customer behavior, and optimize menu offerings based on sales performance.
 
-*   **Dataset:** [Pizza Sales Dataset (Kaggle)](https://www.kaggle.com/datasets/nextstep01/pizza-sales-dataset)
+*   **Dataset:** [Pizza Sales Dataset (Kaggle)](https://www.kaggle.com/datasets/nextmillionaire/pizza-sales-dataset)
 *   **Total Records:** Over 48,000 transaction rows.
 
 ## 🛠️ Key Workflow
-1.  **SQL Integration:** Developed multiple complex SQL queries to extract KPIs and verify data accuracy. These results were cross-checked with Power BI measures to ensure 100% data integrity.
+1.  **SQL Integration:** Developed multiple SQL queries to extract KPIs and verify data accuracy. These results were cross-checked with Power BI measures to ensure 100% data integrity.
 2.  **Data Modeling:** Processed raw data using Power Query and established relationships within Power BI.
 3.  **Visualization:** Designed a 2-page interactive dashboard focusing on **Sales Trends** and **Product Performance (Best/Worst Sellers)**.
 
@@ -41,11 +40,4 @@ Through this data analysis, several critical business insights were uncovered:
 
 ---
 
-## 📂 Repository Contents
-- `Pizza_Sales_Report.pbix`: Interactive Power BI dashboard.
-- `Pizza_Sales_SQL_Queries.docx`: Full set of SQL queries used for data validation and KPI calculation.
-- `Dataset/`: Folder containing the raw sales data.
 
----
-**Developed by:** [Your Name]  
-**Connect with me:** [Your LinkedIn/Email Link]
